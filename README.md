@@ -1,6 +1,6 @@
-# Daniel Hebenstreit — personal academic website
+# Daniel Hebenstreit — personal website
 
-A dependency-free static website designed for GitHub Pages. The visual language deliberately keeps the restrained academic character of the original prototype: a paper-like canvas, serif headings, quiet blue accents, editorial photography, and conventional publication listings.
+A dependency-free static website designed for GitHub Pages.
 
 ## Preview locally
 
