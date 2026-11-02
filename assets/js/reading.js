@@ -111,7 +111,7 @@ function renderEntries(loadedEntries) {
   }
 }
 
-fetch('assets/data/reading-notes.json')
+fetch('assets/data/reading-notes.json?v=20261102-reading-1')
   .then((response) => {
     if (!response.ok) throw new Error('Could not load reading notes');
     return response.json();
