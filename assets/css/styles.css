@@ -317,7 +317,6 @@ p { margin: 0 0 15px; }
 .reading-notes { max-width: 790px; margin-top: 7px; color: var(--ink-soft); font-size: 13.5px; }
 .reading-notes p { margin: 0; }
 .reading-notes p + p { margin-top: 8px; }
-.reading-sentinel { height: 1px; }
 .empty-state { max-width: 660px; padding: 26px 0 8px; }
 .empty-state h2 { font-size: 24px; }
 
