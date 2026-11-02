@@ -26,15 +26,34 @@
       <header class="page-intro">
         <div class="eyebrow">Personal notebook</div>
         <h1>Reading &amp; notes</h1>
-        <p class="lead">I often come across interesting papers, lectures, talks, and courses that I want to revisit but eventually lose track of.</p>
-        <p>This is my attempt to keep a record of the things I’ve explored and found particularly worthwhile, along with occasional notes and reflections.</p>
+        <p class="lead">I often come across papers, articles, conference talks, lectures, and courses that I want to revisit but eventually lose track of.</p>
+        <p>This page is a record of what I’ve read or attended, along with occasional notes and reflections. Some entries were particularly worthwhile; others are included simply to document what I explored.</p>
       </header>
 
-      <section class="section" aria-live="polite" data-reading-list>
-        <div class="empty-state">
-          <h2>The notebook is just getting started.</h2>
-          <p>I have not published any reading notes yet. Future entries will collect concise summaries, questions, and observations from papers I want to revisit.</p>
+      <section class="section pinned-reading" data-pinned-section hidden>
+        <div class="section-heading-row">
+          <div>
+            <h2>Selected</h2>
+            <p class="section-description">Especially useful or interesting.</p>
+          </div>
         </div>
+        <div class="reading-list" data-pinned-list role="list"></div>
+      </section>
+
+      <section class="section reading-feed" aria-live="polite">
+        <div class="section-heading-row">
+          <div>
+            <h2>Full record</h2>
+            <p class="section-description">Everything I’ve read or attended, most recent first.</p>
+          </div>
+          <p class="section-note" data-reading-count>Loading the notebook…</p>
+        </div>
+        <div class="reading-list" data-reading-list role="list">
+          <div class="empty-state">
+            <h2>Loading the notebook…</h2>
+          </div>
+        </div>
+        <div class="reading-sentinel" data-reading-sentinel aria-hidden="true"></div>
       </section>
     </main>
 

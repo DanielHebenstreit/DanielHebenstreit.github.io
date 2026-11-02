@@ -1,1 +1,111 @@
-[]
+[
+  {
+    "title": "ODSC — Marco Peixeiro, “Agentic Time Series Forecasting”",
+    "url": "",
+    "dateRead": "2026-11-02",
+    "notes": [
+      "Mostly a Nixtla product demo branded as “agentic forecasting”: forecasting tools exposed via MCP and controlled through chat. Feels like calling functions in NL, would have been nice to see the underlying MCP and agent skills."
+    ],
+    "pinned": false,
+    "order": 1
+  },
+  {
+    "title": "ODSC — Alex Graveley, “Architecture of Self-Improving Agents”",
+    "url": "",
+    "dateRead": "2026-11-02",
+    "notes": [
+      "Agent self-improvement is less about models rewriting themselves and more about applying CI/CD to the agent harness. Capture trajectories, group failures, make the smallest possible change: preferably to memory or a skill before touching global prompts, tools or even model weights. Validate against both known failures and unseen tasks using an independent evaluator. Production bugs should become permanent eval cases. In summary, treat the agent as a versioned system with an external test suite and keep improving it by iteration on failures."
+    ],
+    "pinned": false,
+    "order": 2
+  },
+  {
+    "title": "ODSC — Christophe Blefar, “What's the future of analytics”",
+    "url": "",
+    "dateRead": "2026-11-02",
+    "notes": null,
+    "pinned": false,
+    "order": 3
+  },
+  {
+    "title": "ODSC — David Campbell, “Ignore Previous Instructions: Offensive Intelligence in the AI Era”",
+    "url": "",
+    "dateRead": "2026-11-02",
+    "notes": null,
+    "pinned": false,
+    "order": 4
+  },
+  {
+    "title": "ODSC — Ray Myers, “Common Sense for Coding With Agents”",
+    "url": "",
+    "dateRead": "2026-11-02",
+    "notes": [
+      "“More agentic” should not be the goal: Agent adoption should depend on both the risk of a module and the value of changing it quickly, with the best candidates being low-risk, fast-changing components. Compilers are unusually agent-friendly because they behave like pure functions with well-defined inputs, outputs and exhaustive test suites. Agent readiness is largely an architecture and feedback-quality problem, not primarily a “model-capability” problem."
+    ],
+    "pinned": false,
+    "order": 5
+  },
+  {
+    "title": "https://towardsdatascience.com/is-multi-collinearity-destroying-your-causal-inferences-in-marketing-mix-modelling-78cb56017c73/",
+    "url": "https://towardsdatascience.com/is-multi-collinearity-destroying-your-causal-inferences-in-marketing-mix-modelling-78cb56017c73/",
+    "dateRead": "2026-10-31",
+    "notes": null,
+    "pinned": false,
+    "order": 1
+  },
+  {
+    "title": "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+    "url": "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+    "dateRead": "2026-10-30",
+    "notes": null,
+    "pinned": false,
+    "order": 1
+  },
+  {
+    "title": "https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude",
+    "url": "https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude",
+    "dateRead": "2026-10-30",
+    "notes": null,
+    "pinned": false,
+    "order": 2
+  },
+  {
+    "title": "ODSC — Bang Liu, “From Single Agent Evolution to Multi-Agent Synergy”",
+    "url": "",
+    "dateRead": "2026-10-29",
+    "notes": [
+      "Sincerely, two interesting keypoints;",
+      "1) Long-running agents with evolving skills can catastrophically forget or accumulate unmanageable skill libraries. Programmatic Skill Networks addresses this by representing skills as executable functions in a dependency graph, which an LLM continually repairs and restructures using execution feedback. This process can be viewed as analogous to neural-network optimization:",
+      "Backpropagation: execution-trace-based symbolic credit assignment identifies which invoked skills likely contributed to a failure and proposes localized code repairs.",
+      "Learning-rate scheduling: maturity-aware update gating modifies new or unreliable skills more readily while protecting proven ones.",
+      "Architecture search: rollback-validated refactoring merges, generalizes and prunes the network of functions.",
+      "Takeaways for in practice use?: Failed run → let executor store a skill-level execution trace → a validator identifies the likely faulty skill → a skill’s previous reliability determines how much evidence is required before changing it → the optimizer creates a new version → previous cases are retested → activate or roll back. Additionally, periodically: a restructuring LLM reviews the entire skill graph → merges, generalizes or prunes skills → retest → activate or roll back.",
+      "2) Should you use one agent or many under the same budget? Multi-agent systems offer specialization, parallelism and diverse perspectives, but also introduce:",
+      "• Communication loss: reasoning is compressed between agents.",
+      "• Context bottlenecks: coordinators cannot process unlimited outputs.",
+      "• Correlated errors: similar agents often fail in similar ways.",
+      "• Coordination costs: communication consumes part of the budget.",
+      "Chains lose information across handoffs; stars are limited by the coordinator’s context; hierarchies reduce that bottleneck but add further information loss. More agents help only if each layer amplifies rather than degrades the signal, and if this organizational gain exceeds what the same budget could achieve with one stronger agent. Hierarchies therefore mainly become useful when centralized coordination reaches its context limit."
+    ],
+    "pinned": true,
+    "order": 1
+  },
+  {
+    "title": "ODSC — Larry Maccherone, “The Cure for Excessive Agency Is More Agency”",
+    "url": "",
+    "dateRead": "2026-10-29",
+    "notes": [
+      "Mostly a conceptual application of DevOps principles to agent safety: Favor continuous feedback, observability and reversibility over human approval-heavy governance, because repeated human approval prompts tend to become rubber stamps - the talk cites roughly 93% of requests to humans being approved anyway."
+    ],
+    "pinned": false,
+    "order": 2
+  },
+  {
+    "title": "ODSC — Sara Zanzottera, “From RAG Pipeline to AI Agent”",
+    "url": "",
+    "dateRead": "2026-10-29",
+    "notes": null,
+    "pinned": false,
+    "order": 3
+  }
+]
